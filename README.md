@@ -35,7 +35,7 @@ How it works
 ```php
 <?php
 include "hitCounter.php";
-$hc = new HitCounter($yourPDOconnection);
+$hc = new hitCounter($yourPDOconnection);
 $hc->init();
 ?>
 ```
